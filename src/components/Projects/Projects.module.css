@@ -13,13 +13,29 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 37px;
 }
 
 .projects {
-  margin-top: 37px;
+  
   display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
   gap: 15px;
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  
 }
