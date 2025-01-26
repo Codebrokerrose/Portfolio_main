@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Full Stack Developer - Intern",
+    "organisation": "Atechnologies",
+    "startDate": "Sept, 2024",
+    "endDate": "Present",
+    "experiences": ["Worked on live hosted projects", "Reduced load times by 50%", "Developed a website for the company"],
+    "imageSrc": "history/atech.png"
+  },
+  {
+    "role": "Sorftare Developer",
+    "organisation": "Vivekananda College",
+    "startDate": "Aug, 2021",
+    "endDate": "Aug, 2022",
+    "experiences": [ "Designed a Learning Management System , Thakurpukur Vivekananda College" , "Developed a website for the college" , "Worked in a team of 5 members"],
+    "imageSrc": "history/vc.png"
+  }
+]

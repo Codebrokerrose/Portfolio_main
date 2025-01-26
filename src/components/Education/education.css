@@ -1,0 +1,105 @@
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #e6f7ff, #b3e5fc);
+    /* Bluish gradient background */
+    padding: 2rem;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    align-self: flex-start;
+    margin: 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: black;
+}
+
+.education {
+    width: 100%;
+    max-width: 750px;
+    /* Adjusted width for better layout */
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    /* Slightly enhanced shadow */
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education h2 {
+    font-size: 2rem;
+    color: #1565c0;
+    /* Bluish heading color */
+    margin-bottom: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.education__item {
+    width: 100%;
+    background: #f1faff;
+    /* Light blue item background */
+    padding: 1.2rem;
+    margin: 1rem 0.5rem;
+    /* Adjusted margin for spacing */
+    border-radius: 10px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle inner shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Hover effects */
+}
+
+.education__item:hover {
+    transform: translateY(-5px);
+    /* Slight hover lift */
+    box-shadow: 0 6px 20px rgba(21, 101, 192, 0.3);
+    /* Hover shadow */
+}
+
+.education__item h3 {
+    font-size: 1.3rem;
+    color: #0d47a1;
+    /* Darker blue for subheadings */
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.education__item p {
+    font-size: 1rem;
+    color: #37474f;
+    /* Neutral gray for text */
+    margin: 0.2rem 0;
+}
+
+@media (max-width: 768px) {
+    .education {
+        width: 90%;
+        /* Responsive width */
+    }
+
+    h1,
+    .education h2 {
+        font-size: 1.8rem;
+    }
+
+    .education__item h3 {
+        font-size: 1.2rem;
+    }
+
+    .education__item p {
+        font-size: 0.9rem;
+    }
+}

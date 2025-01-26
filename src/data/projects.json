@@ -1,0 +1,40 @@
+[
+  {
+    "title": "ATechnologies",
+     "imageSrc": "history/atech.png",
+    "description": "Developed a management website for the well-reputed company ATechnologies using PHP, CSS, HTML, and JavaScript. The platform streamlines operations and enhances user experience.",
+    "demo": "https://atechkol.in/",
+    "skills": ["PHP", "CSS", "HTML", "JavaScript"],
+    "source": "https://github.com/Codebrokerrose/Atechnologies.git"
+  },
+  {
+    "title": "E-Commerce Platform",
+    "imageSrc": "history/amazon.png",
+    "description": "Created an Amazon-inspired e-commerce platform clone. The project demonstrates advanced web development skills and a seamless user interface.",
+    "demo": "https://classy-phoenix-02834d.netlify.app/",
+    "skills": ["React", "CSS", "JavaScript"],
+    "source": "https://github.com/Codebrokerrose/Amazon.git"
+  },
+  {
+    "title": "Learning Management System (LMS)",
+    "imageSrc": "history/vc.png",
+    "description": "Collaborated with a team to develop a comprehensive Learning Management System for Vivekananda College students. Gained hands-on experience and received certification for the project.",
+    "skills": ["Team Collaboration", "Full-Stack Development"],
+    "source": "https://github.com/VCkolkata63/VCkolkata"
+  },
+  {
+    "title": "CAREHUB",
+    "imageSrc": "projects/logo_carehub.png",
+    "description": "This application is crafted to assist in the care of indoor plants, offering personalized care instructions, watering schedules on specific plant and user inputs. Our application also provides access to gardening, pet care, and aquarium services, making it a comprehensive solution for all your indoor plant and pet care needs.",
+    "skills": ["Team Collaboration", "HTML","CSS","JavaScript","PHP","MySQL"],
+    "source": "https://github.com/Codebrokerrose/Carehub.git"
+  },
+  {
+    "title": "Image-Search-Engine",
+    "imageSrc": "projects/project.png",
+    "demo": "https://searchengine-tau.vercel.app/",
+    "description": "An interactive image gallery powered by the Unsplash API. This project showcases a responsive layout, a user-friendly search form, and a dynamic image grid. Users can explore a diverse collection of images and enjoy a seamless browsing experience with the 'Load More' button. Feel free to contribute and explore the world of Unsplash images ! ",
+    "skills": ["Api Calls", "Unsplash API"],
+    "source": "https://github.com/Codebrokerrose/Image-Search-Engine.git"
+  }
+]
