@@ -10,7 +10,7 @@ export const ProjectCard = ({
   // Initialize AOS
   useEffect(() => {
     AOS.init({
-      offset: 200, // Distance of the animation trigger
+      offset: 100, // Distance of the animation trigger
       duration: 1000, // Animation duration in milliseconds
       easing: "ease-in-out", // Animation easing
     });
