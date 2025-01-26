@@ -37,7 +37,7 @@ export const Hero = () => {
           I am {article} {text}
         </h2>
         <p className={styles.description}>
-           with 5 years of experience using React and
+           With 5 years of experience using React and
           NodeJS. Reach out if you'd like to learn more!
         </p>
         <a
