@@ -1,5 +1,13 @@
 [
   {
+    "title": "Chat-App",
+     "imageSrc": "projects/chat.png",
+    "description": "Build Chat App with React, Socket.io, Nodejs, Redux-Toolkit, MongoDB",
+    "demo": "https://chat-app-eddg.onrender.com",
+    "skills": ["REACT", "SOCKET.IO", "NODEJS", "REDUX_TOOLKIT","MONGODB","CLOUDINARY"],
+    "source": "https://github.com/Codebrokerrose/Chat-App"
+  },
+  {
     "title": "ATechnologies",
      "imageSrc": "history/atech.png",
     "description": "Developed a management website for the well-reputed company ATechnologies using PHP, CSS, HTML, and JavaScript. The platform streamlines operations and enhances user experience.",

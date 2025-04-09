@@ -34,10 +34,21 @@ export const Experience = () => {
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
-                  </ul>
+                      {historyItem.experiences.map((experience, id) => (
+                        <li key={id}>{experience}</li>
+                      ))}
+                    </ul>
+                    {historyItem.organisation === "Vivekananda College" && (
+                      <a
+                        href="https://drive.google.com/file/d/1KFW-WXTOVQaV3tSgOaZu8FTgcpE8iiXr/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.viewButton}
+                      >
+                        View Document
+                      </a>
+                    )}
+
                 </div>
               </li>
             );

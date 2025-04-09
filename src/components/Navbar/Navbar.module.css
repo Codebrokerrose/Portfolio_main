@@ -38,6 +38,14 @@
   text-decoration: none;
 }
 
+.title:hover {
+  color: skyblue;
+}
+
+.menuItems a:hover {
+  color: skyblue;
+}
+
 @media screen and (max-width: 1266px) {
   .navbar {
     flex-direction: column;
