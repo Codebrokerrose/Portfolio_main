@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
+import { FaLinkedin, FaGithub, FaCode } from "react-icons/fa";
 
 export const Hero = () => {
   const [text, setText] = useState(""); // Dynamic text for the h2
   const [careerIndex, setCareerIndex] = useState(0); // Current career index
   const [characterIndex, setCharacterIndex] = useState(0); // Current character index for typing animation
 
-  const careers = ["Front-End Developer", "Back-end Developer", "full-stack developer"]; // Array of career options
+  const careers = ["Front-End Developer", "Back-End Developer", "Full-Stack Developer"]; // Array of career options
 
   useEffect(() => {
     const updateText = () => {
@@ -37,16 +38,43 @@ export const Hero = () => {
           I am {article} {text}
         </h2>
         <p className={styles.description}>
-           With 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          With 5 years of experience using React and NodeJS. Reach out if you'd
+          like to learn more!
         </p>
-        <a
-          href="mailto:ankanasaha1922@gmail.com"
-          className={styles.contactBtn}
-        >
+
+        {/* 🌐 Social Icons */}
+        <div className={styles.socialIcons}>
+          <a
+            href="https://www.linkedin.com/in/ankana-saha-604742271/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/Codebrokerrose"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://leetcode.com/u/Ankana1910/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LeetCode"
+          >
+            <FaCode />
+          </a>
+        </div>
+
+        <a href="mailto:ankanasaha1922@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
+
       <img
         src={getImageUrl("hero/heroImage.png")}
         alt="Hero image of me"

@@ -4,7 +4,7 @@
      "imageSrc": "projects/chat.png",
     "description": "Build Chat App with React, Socket.io, Nodejs, Redux-Toolkit, MongoDB",
     "demo": "https://chat-app-eddg.onrender.com",
-    "skills": ["REACT", "SOCKET.IO", "NODEJS", "REDUX_TOOLKIT","MONGODB","CLOUDINARY"],
+    "skills": ["MERN STACK","REACT", "SOCKET.IO", "NODEJS", "REDUX_TOOLKIT","MONGODB","CLOUDINARY"],
     "source": "https://github.com/Codebrokerrose/Chat-App"
   },
   {
@@ -16,26 +16,31 @@
     "source": "https://github.com/Codebrokerrose/Atechnologies.git"
   },
   {
+    "title": "Tourism Website",
+    "imageSrc": "projects/banner.webp",
+    "description": "A responsive tourism agency website for booking travel packages, built with PHP and MySQL. Includes contact form with mail submission.",
+    "demo": "http://photinetravels.com/",
+    "skills": ["PHP", "MySQL", "Mail Submission", "HTML", "CSS", "JavaScript"],
+    "source": "https://github.com/Codebrokerrose/Travel_Agency"
+  }
+,  
+  {
     "title": "E-Commerce Platform",
     "imageSrc": "history/amazon.png",
     "description": "Created an Amazon-inspired e-commerce platform clone. The project demonstrates advanced web development skills and a seamless user interface.",
     "demo": "https://classy-phoenix-02834d.netlify.app/",
-    "skills": ["React", "CSS", "JavaScript"],
+    "skills": ["HTML", "CSS", "JavaScript","PHP","MySQL"],
     "source": "https://github.com/Codebrokerrose/Amazon.git"
   },
+ 
+  
   {
-    "title": "Learning Management System (LMS)",
-    "imageSrc": "history/vc.png",
-    "description": "Collaborated with a team to develop a comprehensive Learning Management System for Vivekananda College students. Gained hands-on experience and received certification for the project.",
-    "skills": ["Team Collaboration", "Full-Stack Development"],
-    "source": "https://github.com/VCkolkata63/VCkolkata"
-  },
-  {
-    "title": "CAREHUB",
-    "imageSrc": "projects/logo_carehub.png",
-    "description": "This application is crafted to assist in the care of indoor plants, offering personalized care instructions, watering schedules on specific plant and user inputs. Our application also provides access to gardening, pet care, and aquarium services, making it a comprehensive solution for all your indoor plant and pet care needs.",
-    "skills": ["Team Collaboration", "HTML","CSS","JavaScript","PHP","MySQL"],
-    "source": "https://github.com/Codebrokerrose/Carehub.git"
+    "title": "Mini Cafe",
+    "imageSrc": "projects/coffee.jpg",
+    "description": "A user-friendly cafe web application that allows users to browse a menu, select items, and book orders for delivery. Built to enhance food ordering experience with a responsive UI.",
+    "demo": "https://mini-cafe.vercel.app/",
+    "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    "source": "https://github.com/Codebrokerrose/mini_cafe"
   },
   {
     "title": "Image-Search-Engine",
@@ -44,5 +49,20 @@
     "description": "An interactive image gallery powered by the Unsplash API. This project showcases a responsive layout, a user-friendly search form, and a dynamic image grid. Users can explore a diverse collection of images and enjoy a seamless browsing experience with the 'Load More' button. Feel free to contribute and explore the world of Unsplash images ! ",
     "skills": ["Api Calls", "Unsplash API"],
     "source": "https://github.com/Codebrokerrose/Image-Search-Engine.git"
+  },
+  {
+    "title": "CAREHUB",
+    "imageSrc": "projects/logo_carehub.png",
+    "description": "This application is crafted to assist in the care of indoor plants, offering personalized care instructions, watering schedules on specific plant and user inputs. Our application also provides access to gardening, pet care, and aquarium services, making it a comprehensive solution for all your indoor plant and pet care needs.",
+    "skills": ["Team Collaboration", "HTML","CSS","JavaScript","PHP","MySQL"],
+    "source": "https://github.com/Codebrokerrose/Carehub.git"
   }
+,  
+{
+  "title": "Learning Management System (LMS)",
+  "imageSrc": "history/vc.png",
+  "description": "Collaborated with a team to develop a comprehensive Learning Management System for Vivekananda College students. Gained hands-on experience and received certification for the project.",
+  "skills": ["Team Collaboration", "Full-Stack Development"],
+  "source": "https://github.com/VCkolkata63/VCkolkata"
+}
 ]

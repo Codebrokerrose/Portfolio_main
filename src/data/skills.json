@@ -12,8 +12,24 @@
     "imageSrc": "skills/boot.png"
   },
   {
+    "title": "Tailwind",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Vue.js",
+    "imageSrc": "skills/vue.png"
   },
   {
     "title": "Node",
@@ -23,13 +39,13 @@
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
+  },{
+    "title":"MySQL",
+    "imageSrc": "skills/mysql.png"
   },
+ 
   {
-    "title": "PHP",
-    "imageSrc": "skills/php.png"
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "title": "Git",
+    "imageSrc": "skills/github.png"
   }
 ]

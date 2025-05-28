@@ -13,9 +13,17 @@ export const Experience = () => {
         <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+              <div key={id} className={`${styles.skill} `}>
+                <div
+                  className={`${styles.skillImageContainer} ${
+                    skill.title === "MySQL" ? styles.mysqlSkill : ""
+                  }`}
+                >
+                  <img
+                    className={`${styles.glowSkill}`}
+                    src={getImageUrl(skill.imageSrc)}
+                    alt={skill.title}
+                  />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -27,28 +35,28 @@ export const Experience = () => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={getImageUrl(historyItem.imageSrc) } className={styles.skillImage}
+                  src={getImageUrl(historyItem.imageSrc)}
+                  className={styles.skillImage}
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
-                      {historyItem.experiences.map((experience, id) => (
-                        <li key={id}>{experience}</li>
-                      ))}
-                    </ul>
-                    {historyItem.organisation === "Vivekananda College" && (
-                      <a
-                        href="https://drive.google.com/file/d/1KFW-WXTOVQaV3tSgOaZu8FTgcpE8iiXr/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.viewButton}
-                      >
-                        View Document
-                      </a>
-                    )}
-
+                    {historyItem.experiences.map((experience, id) => (
+                      <li key={id}>{experience}</li>
+                    ))}
+                  </ul>
+                  {historyItem.organisation === "Vivekananda College" && (
+                    <a
+                      href="https://drive.google.com/file/d/1KFW-WXTOVQaV3tSgOaZu8FTgcpE8iiXr/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`${styles.viewButton} `}
+                    >
+                      View Document
+                    </a>
+                  )}
                 </div>
               </li>
             );

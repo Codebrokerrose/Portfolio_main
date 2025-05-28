@@ -12,32 +12,46 @@ export const Education = () => {
   }, []); // Empty dependency array to ensure it runs only once
 
   return (
-    <div className="contact" id="education">
-      {/* Education Section */}
-      <div className="education" data-aos="fade-left">
-        <h2>Education</h2>
-        <ul className="education__list">
-          <li className="education__item">
-            <h3>Master In Computer Application</h3>
-            <p>Jadavpur University</p>
-            <p><strong>Year:</strong> 2024 - Present</p>
-          </li>
-          <li className="education__item">
-            <h3>Bachelor in Computer Science</h3>
-            <p>Vivekananda College, Kolkata</p>
-            <p><strong>Year:</strong> 2021 - 2024</p>
-          </li>
-          <li className="education__item">
-            <h3>Higher Secondary Education</h3>
-            <p>Belsingha Sikshayatan, Falta</p>
-            <p><strong>Year:</strong> 2019 - 2021</p>
-          </li>
-          <li className="education__item">
-            <h3>Secondary Education</h3>
-            <p>Belsingha Girl's School</p>
-            <p><strong>Year:</strong> 2013 - 2019</p>
-          </li>
-        </ul>
+    <div className="ag-format-container" id="education">
+      <h2 className="education-heading" data-aos="fade-left">
+        Education
+      </h2>
+      <div className="ag-courses_box" data-aos="fade-left">
+        {[
+          {
+            title: "Master in Computer Application",
+            place: "Jadavpur University",
+            date: "2024 - Present",
+          },
+          {
+            title: "Bachelor in Computer Science",
+            place: "Vivekananda College, Kolkata",
+            date: "2021 - 2024",
+          },
+          {
+            title: "Higher Secondary Education",
+            place: "Belsingha Sikshayatan, Falta",
+            date: "2019 - 2021",
+          },
+          {
+            title: "Secondary Education",
+            place: "Belsingha Girl's School",
+            date: "2013 - 2019",
+          },
+          
+        ].map((edu, index) => (
+          <div className="ag-courses_item" key={index}>
+            <div className="ag-courses-item_link">
+              <div className="ag-courses-item_bg bg-blue" />
+              <div className="ag-courses-item_title">{edu.title}</div>
+              <div className="ag-courses-item_date-box">
+                {edu.place}
+                <br />
+                <span className="ag-courses-item_date">{edu.date}</span>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
