@@ -15,7 +15,7 @@ export const Contact = () => {
           action="https://formsubmit.co/278ecd959628ef87e3eeeb2ee3c90fd4"
           method="POST"
         >
-          <h1>Speak to one of our specialists</h1>
+          <h1>Get in Touch</h1>
 
           <div className={styles.formInputMaterial}>
             <input
