@@ -1,7 +1,7 @@
 [
   {
   "title": "PREPTIK – AI Mock Interview Assistant",
-  "imageSrc": "interviewdesk.ai/wp-content/uploads/2024/11/How-Mock-Interviews-Can-Boost-Your-Confidence-for-Real-Interviews-1.webp",
+  "imageSrc": "projects/mock_interview.jpg",
   "description": "AI-powered mock interview platform with generated feedback and answers for improvement.",
   "demo": "https://ai-mock-interviewer-puce.vercel.app",
   "skills": [
