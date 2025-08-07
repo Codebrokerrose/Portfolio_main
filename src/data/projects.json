@@ -1,5 +1,25 @@
 [
   {
+  "title": "PREPTIK – AI Mock Interview Assistant",
+  "imageSrc": "interviewdesk.ai/wp-content/uploads/2024/11/How-Mock-Interviews-Can-Boost-Your-Confidence-for-Real-Interviews-1.webp",
+  "description": "AI-powered mock interview platform with generated feedback and answers for improvement.",
+  "demo": "https://ai-mock-interviewer-puce.vercel.app",
+  "skills": [
+    "NEXT.JS 14",
+    "REACT",
+    "TAILWIND CSS",
+    "CLERK AUTH",
+    "POSTGRESQL",
+    "DRIZZLE ORM",
+    "GEMINI AI",
+    "REACT-HOOK-SPEECH-TO-TEXT",
+    "REACT-WEBCAM",
+    "SHADCN/UI",
+    "HYPERUI"
+  ],
+  "source": "https://github.com/Codebrokerrose/AI-Mock-Interviewer"
+},
+  {
     "title": "Chat-App",
      "imageSrc": "projects/chat.png",
     "description": "Build Chat App with React, Socket.io, Nodejs, Redux-Toolkit, MongoDB",
